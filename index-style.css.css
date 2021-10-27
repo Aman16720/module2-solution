@@ -1,0 +1,131 @@
+.container{
+    margin: 30px 30px;
+    padding: 60px 60px;
+    text-align: center;
+    
+}    
+.c1{
+        width: 30%;
+        height: 250px;
+        margin: 10px;  
+        background-color: gray;
+        color: black;
+        float: left;
+        border: 1px solid black;
+        display: block;
+    } 
+.c2{
+        width: 30%;
+        height: 250px;
+        margin: 10px;
+        background-color:grey;
+        color: black;
+        float:left;
+        border: 1px solid black;
+        display: block;
+    }
+.c3{
+        width: 30%;
+        height: 250px; 
+        margin: 10px;
+        background-color: grey;
+        color: black;
+        float: left;
+        border: 1px solid black;
+        display: block;
+    }
+    .inner1{
+        width: 25%;
+        height: 30px;
+        background-color:hotpink;
+        color: black;
+        text-align: center;
+        font: bold;
+        position: relative;
+        top: 0%;
+        left: 75%;
+        
+    }
+    .inner2{
+        width: 25%;
+        height: 30px;
+        background-color: red;
+        color: white;
+        text-align: center;
+        font: bold;
+        position: relative;
+        top: 0%;
+        left: 75%;
+        
+    }
+
+    .inner3{
+        width: 25%;
+        height: 30px;            
+        background-color: palegoldenrod;
+        color: black;
+        text-align: center;
+        font: bold;
+        position: relative;
+        top: 0%;
+        left:75%;
+
+    }
+    .text1{
+        padding: 20px 20px;
+    }
+    
+    .text2{
+        padding: 20px 20px;
+    }
+    
+    .text3{
+        padding: 20px 20px;
+    }
+
+    @media (max-width:991px)
+    {
+
+.container{
+    text-align: center;
+}        
+.c1{
+    font-size: 14px;
+    width: 46%;
+    float: left;
+    }
+
+.c2{
+    font-size: 14px;
+    width: 46%;
+    float: right;    
+    }
+
+.c3{
+    font-size: 14px;
+    width: 97%;    
+    }
+   
+    @media (max-width:767px)
+    {
+
+.container{
+    text-align: center;
+}        
+.c1{
+    font-size: 14px;
+    width: 97%;
+    
+    }
+
+.c2{
+    font-size: 14px;
+    width: 97%;
+    margin: 0px;
+        
+    }
+
+.c3{
+    font-size: 14px;
+    width: 97%;    
+    }
